@@ -1,0 +1,153 @@
+
+*{font-size: large;}
+/* STYLE NAVBAR VÀ LOGO */
+.logo {
+    padding-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-item {
+    padding: 15px 30px;
+    height: 80px;
+    width:180px;
+    text-align: center;
+}
+
+.active {
+    border-bottom: solid 2px black;
+    font-weight: bolder;
+    background-color: rgb(246, 246, 246);
+}
+
+.nav-item:hover {
+    border-bottom: solid 2px black;
+    background-color: rgb(246, 246, 246);
+}
+
+/* VIDEO HEADER */
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.showcase.active {
+    right: 300px;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(49, 48, 48);
+    mix-blend-mode: overlay;
+}
+
+.text {
+    position: relative;
+    z-index: 3;
+    color: white;
+    text-align: left;
+}
+
+.social {
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li a i {
+    font-size: 45px;
+    color: white;
+    ;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.2s;
+}
+
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+.shop-btn {
+    color: white;
+    z-index: 4;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 50px;
+    
+}
+
+.shop-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* CONTENT */
+.block {
+    width: 100%;
+    margin-top: 780px;
+    text-align: center;
+    align-items: center;
+}
+
+.line {
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.row {
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+margin-left: 150px;
+}
+
+.brand img {
+    height: 100px
+}
