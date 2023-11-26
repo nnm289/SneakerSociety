@@ -6,63 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/103d7ccca3.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body>
     <div class="container">
-        <nav class="nav">
-            <div class="nav-bar">
-                <div class="logo">
-                    <a href="">SNEAKERS SOCIETY</a>
+        <header>
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg sticky">
+                <div class="container-fluid">
+                    <div>
+                        <h2 class="logo">SNEAKER SOCIETY</h2>
+                    </div>
                 </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                <nav class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">brands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">stores</a>
+                        </li>
+
+
+
                     </ul>
+                </nav>
+
                 </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-            </div>
-        </nav>
-            
-        </div>
-        <div class="middle-container">
-            <div class="hottest_sneaker">
-                <h2 class="middle-header">HOTTEST SNEAKERS</h2>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="../img/yellow.jpg" class="card-img-top"
+                            alt="Hollywood Sign on The Hill" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                        
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../img/white_red.jpg" class="card-img-top"
+                            alt="Palm Springs Road" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
 
-                <p>AIR JORDAN</p>
-                <p>X Travis Scott 1 Low Golf 'Neutral Olive'(2023)</p>
-                <img class="jordan" src="../img/brown-yellow.jpg" alt="">
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../img/white-gray.jpg" class="card-img-top"
+                            alt="Los Angeles Skyscrapers" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
 
-                <p>AIR JORDAN</p>
-                <p>Adidas Campus 00s Grey Off White (2023)</p>
-                <img class="jordan" src="../img/gray.jpg" alt="">
-
-
-                <p>AIR JORDAN</p>
-                <p>4 Retro 'Red Cement'(2023)</p>
-                <img class="jordan" src="../img/white_red.jpg" alt="">
-
-
-                <p>AIR JORDAN</p>
-                <p>X J Balvin 3 Retro SP 'Medellin Sunset'(2023)</p>
-                <img class="jordan" src="../img/yellow.jpg" alt="">
-
-
-                <p>AIR JORDAN</p>
-                <p>4 WMNS 'Frozen Moments'(2023)</p>
-                <img class="jordan" src="../img/white-gray.jpg" alt="">
-
-            </div>
-            <div class="dropping-soon">
-                <h2>Dropping soon</h2>
-                <!-- 
+    </div>
+    <div class="dropping-soon">
+        <h2>Dropping soon</h2>
+        <!-- 
                 <img src="" alt="">
                 <p>AIR JORDAN</p>
                 <p>X TRAVIS SCOTT 1 LOW GOLF 'NEUTRAL OLIVE'(2023)</p>
@@ -87,9 +117,8 @@
                 <p>AIR JORDAN</p>
                 <p>X TRAVIS SCOTT 1 LOW GOLF 'NEUTRAL OLIVE'(2023)</p>
             </div> -->
-            </div>
-        </div>
+    </div>
+    </div>
 </body>
-<link rel="stylesheet" href="../css/index.css">
-<link rel="stylesheet" href="../css/bootstrap.css">
+
 </html>
